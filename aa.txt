@@ -1,0 +1,79 @@
+\rfig{fig:ObtainedSurfaceDS_Pat}. In \rfig{fig:ObtainedSurfaceDS_Pat}, a solid line and a dotted line represent as same as case(1).
+
+
+\rfig{fig:ObtainedSurfaceNDS_Pat}. In \rfig{fig:ObtainedSurfaceNDS_Pat}, each solid line represents a lower edge and a dotted line represents an upper edge. In this result, we could confirm that the designed cup shape by our proposed method menifests the function:"fitting to a breast".
+Next, we show the result in case(2). In
+As the calculated shapes approximate the given points, we conclude our proposed method in this paper is useful for efficient design of paper patterns of a two-piece brassiere cup.
+\begin{figure}[h]
+	\centering
+	\subfigure[zx-view]{
+		\includegraphics[width=0.6\columnwidth,clip]{./figure/NDS/ObtainedRidgeLinefromz-x.eps}
+		\label{fig:zx-NDS}
+	}
+	\hfil
+	\subfigure[zy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromz-y.eps}
+		\label{fig:zy-NDS}
+	}
+	\hfil
+	\subfigure[xy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromx-y.eps}
+		\label{fig:xy-NDS}
+	}
+	\caption{Obtained shape and input data points in Case(1)}
+	\label{fig:ObtainedSurfaceNDS}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\subfigure[LOWER PATTERN]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternL.eps}
+		\label{fig:low-NDS}
+	}
+	\hfil
+	\subfigure[UPPER PATTERN]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternU.eps}
+		\label{fig:upp-NDS}
+	}
+	
+	\caption{Obtained patterns in Case(1)}
+	\label{fig:ObtainedSurfaceNDS_Pat}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[zx-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-x.eps}
+		\label{fig:zx-DS}
+	}
+	\hfil
+	\subfigure[zy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-y.eps}
+		\label{fig:zy-DS}
+	}
+	\hfil
+	\subfigure[zy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromx-y.eps}
+		\label{fig:xy-DS}
+	}
+	\caption{Obtained shape and input data points in Case(2)}
+	\label{fig:ObtainedSurfaceDS}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\subfigure[LOWER PATTERN]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternL.eps}
+		\label{fig:low-DS}
+	}
+	\hfil
+	\subfigure[UPPER PATTERN]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternU.eps}
+		\label{fig:upp-DS}
+	}
+	
+	\caption{Obtained patterns in Case(2)}
+	\label{fig:ObtainedSurfaceDS_Pat}
+\end{figure}
+\section*{CONCLUSION}
+In this paper, we proposed a method to design the cup shape of two-piece brassiere cup and its patterns satisfying the function: "fitting to a breast shape", in case that it is given as a cloud of data points. We claimed the background and problem of design process of a brassiere cup. In design process, as a cup model for check of the shapes of patterns is made of paper, it is assumed that the surface of the model is composed of several developable surfaces. At first, we formulated the cup model based on the differential geometry. And we claimed that a developable surface can be determined by two curves included in it. The design process of a two-piece brassiere cup can be converted to the optimization problem, whose objective function is the error between the cup shape and its data points. In order to calculate the error, we first formulated the error between a point and the surface from geometry condition. Then, we proposed a method to divide a data cloud into two clouds: evaluating the lower cup, or evaluating the upper cup. In order to verification of our proposed method, we prepared two examples of data points: a set of non-developable surface and developable surface. From the result of two examples, we confirmed that our proposed method can design the cup shape which manifests the function. As a result, Our proposed method will be useful for efficient design of a two-piece brassiere cup.
