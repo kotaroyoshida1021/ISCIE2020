@@ -18,4 +18,17 @@
 \newcommand{\omgZeta}{\omega_{\zeta}}
 \newcommand{\partdiff}[2]{\disfrac{\partial #1}{\partial #2}}
 \newcommand{\partddiff}[2]{\disfrac{\partial^2 #1}{\partial #2^2}}
-\newcommand{\partdiffTwoParams}[3]{\disfrac{\partial^2 #1}{\partial #2 \partial #3}} 
+\newcommand{\partdiffTwoParams}[3]{\disfrac{\partial^2 #1}{\partial #2 \partial #3}}
+\newcount\switchcase
+\switchcase=1
+
+\newcommand{\chcolor}[1]{
+	\ifnum\switchcase=1
+	\textcolor{red}{#1}
+	\else
+	#1
+	\fi
+}
+\newcommand{\chJp}[1]{
+	\chcolor{(回答) #1}
+}

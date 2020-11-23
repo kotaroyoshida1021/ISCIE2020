@@ -1,20 +1,19 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.10.10)  15 NOV 2020 23:31
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.12.23)  23 NOV 2020 23:28
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
 **paper_e.tex
 (./paper_e.tex
-pLaTeX2e <2020-10-01>+1 (based on LaTeX2e <2020-10-01> patch level 1)
-L3 programming layer <2020-10-05> xparse <2020-03-03> (./scitrans.cls
+pLaTeX2e <2019-10-01>+1 (based on LaTeX2e <2019-10-01> patch level 3)
+(./scitrans.cls
 Document Class: scitrans 
-(c:/w32tex/share/texmf-dist/tex/latex/base/latexsym.sty
+(c:/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(c:/w32tex/share/texmf-dist/tex/latex/base/ulasy.fd
+(c:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./scims.sty
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
@@ -29,110 +28,126 @@ LaTeX Font Info:    Redeclaring math symbol \Phi on input line 11.
 LaTeX Font Info:    Redeclaring math symbol \Psi on input line 12.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
 )
-\zw=\dimen154
-\zh=\dimen155
-\H=\dimen156
+\zw=\dimen118
+\zh=\dimen119
+\H=\dimen120
 
-(c:/w32tex/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(c:/w32tex/share/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
-\c@part=\count174
-\c@section=\count175
-\c@subsection=\count176
-\c@subsubsection=\count177
-\c@paragraph=\count178
-\c@subparagraph=\count179
-\c@figure=\count180
-\c@table=\count181
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen157
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen121
 ) (./scie.sty)
 (./sci209.sty
-\Q=\dimen158
-\eikotopsep=\dimen159
-\ronbuntitleheight=\dimen160
-\c@series=\count182
-\fnindent=\dimen161
-\c@volumepage=\count183
-\c@diffvolumepage=\count184
-\addressindent=\dimen162
-\c@numberofaddress=\count185
-\tmpaddressbox=\box64
-\eikoparagraphtitlelength=\dimen163
-\@fncnt=\count186
-\c@savedpageout=\count187
-\@stpage=\toks16
-\@stpageout=\toks17
-\c@remark=\count188
-\c@assumption=\count189
-\c@theorem=\count190
-\c@lemma=\count191
-\c@proposition=\count192
-\c@corollary=\count193
-\c@definition=\count194
-\c@example=\count195
-\enumleftmargin=\dimen164
-\c@@@@first=\count196
-\c@@@@state=\count197
-\c@@@@next=\count198
-\c@@@@cur=\count199
-\c@@@@curt=\count266
-\hagi@eqnarraysep=\dimen165
-\mathindent=\dimen166
-\@stequation=\toks18
-\c@footequation=\count267
-\eikofootnotelinewidth=\dimen167
-\c@subfigure=\count268
-\c@lofdepth=\count269
-\c@subtable=\count270
-\c@lotdepth=\count271
-\c@IHdiffpage=\count272
-\c@IHlastpage=\count273
-\@minsofar=\count274
-\@min=\count275
-\@Float@temp=\count276
-\@Env@temp=\count277
-\@Eq@temp=\count278
-\eiko@rubywidth=\dimen168
-\c@eikobiographycount=\count279
-\lfsep=\dimen169
-\@parwd=\dimen170
-\@nlp=\count280
-\@nlpi=\count281
-\@nltop=\count282
-\arrayrulethickwidth=\dimen171
-\hdashlinewidth=\dimen172
-\hdashlinegap=\dimen173
-\hdl@totalheight=\count283
-\hdl@totalheightsave=\count284
-\hdl@columns=\count285
-\hdl@currentcolumn=\count286
-\hdl@currentcolumnsave=\count287
-\hdl@box=\box65
-\hdl@height=\dimen174
-\hdl@heightsave=\dimen175
-\hdl@depth=\dimen176
-\hdl@depthsave=\dimen177
-\@slashboxa=\box66
-\@slashboxb=\box67
-\@slashboxc=\box68
-\@slashboxwd=\count288
-\@slashboxht=\count289
-\@slashsepl=\dimen178
-\@slashsepr=\dimen179
-\dimen@@=\dimen180
-\dimen@@@=\dimen181
-\@eikolastfootheight=\dimen182
-\@eikolastfootnote=\box69
-\@eikolastrightfootnote=\box70
-\c@tmpeikocounter=\count290
-\@interlinegap=\skip49
-\@leftcolumnfootnote=\box71
-\@rightcolumnfootnote=\box72
-)) (./math.sty) (c:/w32tex/share/texmf-dist/tex/latex/tools/bm.sty
+\Q=\dimen122
+\eikotopsep=\dimen123
+\ronbuntitleheight=\dimen124
+\c@series=\count91
+\fnindent=\dimen125
+\c@volumepage=\count92
+\c@diffvolumepage=\count93
+\addressindent=\dimen126
+\c@numberofaddress=\count94
+\tmpaddressbox=\box43
+\eikoparagraphtitlelength=\dimen127
+\@fncnt=\count95
+\c@savedpageout=\count96
+\@stpage=\toks15
+\@stpageout=\toks16
+\c@remark=\count97
+\c@assumption=\count98
+\c@theorem=\count99
+\c@lemma=\count100
+\c@proposition=\count101
+\c@corollary=\count102
+\c@definition=\count103
+\c@example=\count104
+\enumleftmargin=\dimen128
+\c@@@@first=\count105
+\c@@@@state=\count106
+\c@@@@next=\count107
+\c@@@@cur=\count108
+\c@@@@curt=\count109
+\hagi@eqnarraysep=\dimen129
+\mathindent=\dimen130
+\@stequation=\toks17
+\c@footequation=\count110
+\eikofootnotelinewidth=\dimen131
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+\c@IHdiffpage=\count115
+\c@IHlastpage=\count116
+\@minsofar=\count117
+\@min=\count118
+\@Float@temp=\count119
+\@Env@temp=\count120
+\@Eq@temp=\count121
+\eiko@rubywidth=\dimen132
+\c@eikobiographycount=\count122
+\lfsep=\dimen133
+\@parwd=\dimen134
+\@nlp=\count123
+\@nlpi=\count124
+\@nltop=\count125
+\arrayrulethickwidth=\dimen135
+\hdashlinewidth=\dimen136
+\hdashlinegap=\dimen137
+\hdl@totalheight=\count126
+\hdl@totalheightsave=\count127
+\hdl@columns=\count128
+\hdl@currentcolumn=\count129
+\hdl@currentcolumnsave=\count130
+\hdl@box=\box44
+\hdl@height=\dimen138
+\hdl@heightsave=\dimen139
+\hdl@depth=\dimen140
+\hdl@depthsave=\dimen141
+\@slashboxa=\box45
+\@slashboxb=\box46
+\@slashboxc=\box47
+\@slashboxwd=\count131
+\@slashboxht=\count132
+\@slashsepl=\dimen142
+\@slashsepr=\dimen143
+\dimen@@=\dimen144
+\dimen@@@=\dimen145
+\@eikolastfootheight=\dimen146
+\@eikolastfootnote=\box48
+\@eikolastrightfootnote=\box49
+\c@tmpeikocounter=\count133
+\@interlinegap=\skip43
+\@leftcolumnfootnote=\box50
+\@rightcolumnfootnote=\box51
+)) (c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (./math.sty
+\switchcase=\count134
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
 \symboldletters=\mathgroup6
@@ -140,86 +155,60 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldlasy=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
-) (c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 105.
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2020/08/26 v5.0h Graphics/color driver for dvipdfmx
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen183
-\Gin@req@width=\dimen184
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
-(c:/w32tex/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: dvipdfmx.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen185
-\epsfysize=\dimen186
-)
-(c:/w32tex/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
-\l__pdf_internal_box=\box73
-\g__pdf_backend_object_int=\count291
-\l__pdf_backend_content_box=\box74
-\l__pdf_backend_model_box=\box75
-\g__pdf_backend_annotation_int=\count292
-\g__pdf_backend_link_int=\count293
-\g__pdf_backend_link_sf_int=\count294
+\epsfxsize=\dimen149
+\epsfysize=\dimen150
 )
 (./paper_e.aux)
 \openout1 = `paper_e.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
  [0
 
 
@@ -227,60 +216,66 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 ]
 --9.95845pt
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
 
-Underfull \hbox (badness 1005) in paragraph at lines 53--53
+Underfull \hbox (badness 1005) in paragraph at lines 54--54
 []\OT1/cmr/bx/n/17.28 DESIGN OF A TWO-PIECE BRASSIERE
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 53.
+(Font)              <7> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 53.
+(Font)              <5> on input line 54.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 53.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 53.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 53.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 53.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 53.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 53.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 55.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 72.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 54.
 
-Underfull \hbox (badness 1221) in paragraph at lines 72--72
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 54.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 54.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 54.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 56.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 73.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 73.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 73--73
 []\OT1/cmr/m/it/9 Key Words\OT1/cmr/m/n/9 : de-sign, sim-u-la-tion, the-ory of 
 sur-faces,
  []
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 78.
 File: ./figure/UpperPattern.eps Graphic file (type eps)
 <./figure/UpperPattern.eps>
 File: ./figure/LowerPattern.eps Graphic file (type eps)
@@ -293,10 +288,10 @@ File: ./figure/Lines.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 113.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 113.
-\@tmpcnta=\count295
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 114.
+\@tmpcnta=\count135
 [1
 
 
@@ -304,52 +299,52 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 File: ./figure/DesignProcess2.eps Graphic file (type eps)
 <./figure/DesignProcess2.eps>
 
-Overfull \hbox (21.71971pt too wide) in paragraph at lines 130--130
+
+LaTeX Warning: Citation `cX1' on page 2 undefined on input line 125.
+
+
+LaTeX Warning: Citation `cX2' on page 2 undefined on input line 125.
+
+
+LaTeX Warning: Citation `cX3' on page 2 undefined on input line 125.
+
+
+Overfull \hbox (21.71971pt too wide) in paragraph at lines 133--133
 []\OT1/cmr/bx/n/12 MODELING OF DE-VEL-OPABLE SUR-
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 133.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 133.
-\@tmpcnta=\count296
+\@tmpcnta=\count136
 [2]
 File: ./figure/Object_Coordinates.eps Graphic file (type eps)
 <./figure/Object_Coordinates.eps>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 196.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 227.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 227.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 227.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 227.
-\@tmpcnta=\count297
- [3]
+
+
+LaTeX Warning: Citation `cX4' on page 3 undefined on input line 172.
+
+\@tmpcnta=\count137
+[3]
 File: ./figure/Theta.eps Graphic file (type eps)
 <./figure/Theta.eps>
 File: ./figure/PatternImage2.eps Graphic file (type eps)
 <./figure/PatternImage2.eps>
 
-Overfull \hbox (17.63487pt too wide) in paragraph at lines 273--273
+Overfull \hbox (17.63487pt too wide) in paragraph at lines 275--275
 []\OT1/cmr/bx/n/12 EXPRESSION OF THE DE-SIGN PRO-
  []
 
 
-Overfull \hbox (15.0654pt too wide) in paragraph at lines 273--273
+Overfull \hbox (15.0654pt too wide) in paragraph at lines 275--275
 \OT1/cmr/bx/n/12 CESS AS AN OP-TI-MIZA-TION PROB-
  []
 
 
-Overfull \hbox (2.59938pt too wide) in paragraph at lines 276--276
+Overfull \hbox (2.59938pt too wide) in paragraph at lines 278--278
 []\OT1/cmr/bx/n/10.95 Formulation of the er-ror be-tween a point
  []
 
-\@tmpcnta=\count298
+\@tmpcnta=\count138
 [4]
-Overfull \hbox (14.01512pt too wide) in paragraph at lines 298--299
+Overfull \hbox (14.01512pt too wide) in paragraph at lines 300--301
 \OT1/cmr/m/n/10 ridge line, and up-per line and let $[][](\OML/cmm/m/it/10 s[]\
 OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT
 1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/
@@ -363,50 +358,50 @@ File: ./figure/Exceeding.eps Graphic file (type eps)
 File: ./figure/Connection_Point.eps Graphic file (type eps)
 <./figure/Connection_Point.eps>
 
-Underfull \hbox (badness 1675) in paragraph at lines 363--363
+Underfull \hbox (badness 1675) in paragraph at lines 365--365
 []\OT1/cmr/m/n/9 Expression about the con-nec-tion point of a
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 373.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 373.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 373.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 373.
-\@tmpcnta=\count299
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\@tmpcnta=\count139
 [5]
-Overfull \hbox (15.81535pt too wide) in paragraph at lines 376--376
+Overfull \hbox (15.81535pt too wide) in paragraph at lines 378--378
 []\OT1/cmr/bx/n/10.95 Procedure to Solve the Op-ti-miza-tion Prob-
  []
 
 
-Overfull \hbox (6.16347pt too wide) in paragraph at lines 390--391
-[]\OT1/cmr/m/n/10 and the po-si-tion $[][](\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 
-) \OMS/cmsy/m/n/10 ^^Q [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10
- )$ and $[][](\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^Q [][]\O
-T1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 )$
+Overfull \hbox (6.16347pt too wide) in paragraph at lines 392--393
+\OT1/cmr/m/n/10 and the po-si-tion $[][](\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) 
+\OMS/cmsy/m/n/10 ^^Q [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 )
+$ and $[][](\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^Q [][]\OT1
+/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (10.5129pt too wide) in paragraph at lines 415--415
+Overfull \hbox (2.2616pt too wide) in paragraph at lines 415--416
+\OT1/cmr/m/n/10 a non-lin-ear pro-gram-ming prob-lem of $[]$, which is solved
+ []
+
+
+Overfull \hbox (10.5129pt too wide) in paragraph at lines 417--417
 []\OT1/cmr/bx/n/12 SIMULATION AND VER-I-FI-CA-TION 
  []
 
+\@tmpcnta=\count140
+[6]
 File: ./figure/NDS/ObtainedRidgeLinefromz-x.eps Graphic file (type eps)
 <./figure/NDS/ObtainedRidgeLinefromz-x.eps>
 File: ./figure/NDS/ObtainedRidgeLinefromz-y.eps Graphic file (type eps)
 <./figure/NDS/ObtainedRidgeLinefromz-y.eps>
 File: ./figure/NDS/ObtainedRidgeLinefromx-y.eps Graphic file (type eps)
 <./figure/NDS/ObtainedRidgeLinefromx-y.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./figure/NDS/ObtainedPatternL.eps Graphic file (type eps)
 <./figure/NDS/ObtainedPatternL.eps>
 File: ./figure/NDS/ObtainedPatternU.eps Graphic file (type eps)
 <./figure/NDS/ObtainedPatternU.eps>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -426,111 +421,76 @@ File: ./figure/DS/ObtainedPatternU.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\@tmpcnta=\count300
-[6]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sc' undefined
-(Font)              No change on input line 510.
-\@tmpcnta=\count301
- [7]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 519.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 520.
 
-Underfull \hbox (badness 1983) in paragraph at lines 520--521
-[][]\OT1/cmr/m/n/9 P.Bo and W.Wang, \OT1/cmr/m/it/9 "Geodesic-Controlled De-vel
--
+Underfull \hbox (badness 1983) in paragraph at lines 535--536
+[]\OT1/cmr/m/n/9 P.Bo and W.Wang, \OT1/cmr/m/it/9 "Geodesic-Controlled De-vel-
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 521.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 522.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 523.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 524.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 525.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 526.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 527.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 528.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 529.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 530.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 531.
-
-Underfull \hbox (badness 3803) in paragraph at lines 531--532
+\@tmpcnta=\count141
+[7]
+Underfull \hbox (badness 3803) in paragraph at lines 546--547
 \OT1/cmr/m/n/9 naga, Eiji Arai, Sei-ichiro Tsut-sumi, Takahiro
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 532.
 
-Overfull \hbox (12.80872pt too wide) in paragraph at lines 550--550
+Overfull \hbox (12.80872pt too wide) in paragraph at lines 565--565
 []\OT1/cmr/m/n/9 HidefumiWakamatsu re-ceived his B.Eng.,
  []
 
 
-Overfull \hbox (12.80872pt too wide) in paragraph at lines 550--550
+Overfull \hbox (12.80872pt too wide) in paragraph at lines 565--565
 []\OT1/cmr/m/n/9 HidefumiWakamatsu re-ceived his B.Eng.,
  []
 
 
-Overfull \hbox (12.80872pt too wide) in paragraph at lines 550--550
+Overfull \hbox (12.80872pt too wide) in paragraph at lines 565--565
 []\OT1/cmr/m/n/9 HidefumiWakamatsu re-ceived his B.Eng.,
  []
 
-
-Overfull \hbox (15.29132pt too wide) in paragraph at lines 565--565
+\@tmpcnta=\count142
+[8]
+Overfull \hbox (15.29132pt too wide) in paragraph at lines 580--580
 []\OT1/cmr/m/n/9 Eiji Mori-naga re-ceived his B.Eng., M.Eng.
  []
 
 
-Overfull \hbox (8.0366pt too wide) in paragraph at lines 565--565
+Overfull \hbox (8.0366pt too wide) in paragraph at lines 580--580
 \OT1/cmr/m/n/9 in 2000, 2002 and 2005, re-spec-tively. From
  []
 
 
-Overfull \hbox (15.29132pt too wide) in paragraph at lines 565--565
+Overfull \hbox (15.29132pt too wide) in paragraph at lines 580--580
 []\OT1/cmr/m/n/9 Eiji Mori-naga re-ceived his B.Eng., M.Eng.
  []
 
 
-Overfull \hbox (8.0366pt too wide) in paragraph at lines 565--565
+Overfull \hbox (8.0366pt too wide) in paragraph at lines 580--580
 \OT1/cmr/m/n/9 in 2000, 2002 and 2005, re-spec-tively. From
  []
 
 
-Overfull \hbox (15.29132pt too wide) in paragraph at lines 565--565
+Overfull \hbox (15.29132pt too wide) in paragraph at lines 580--580
 []\OT1/cmr/m/n/9 Eiji Mori-naga re-ceived his B.Eng., M.Eng.
  []
 
 
-Overfull \hbox (8.0366pt too wide) in paragraph at lines 565--565
+Overfull \hbox (8.0366pt too wide) in paragraph at lines 580--580
 \OT1/cmr/m/n/9 in 2000, 2002 and 2005, re-spec-tively. From
  []
 
-\@tmpcnta=\count302
-[8] (./paper_e.aux) ) 
+\@tmpcnta=\count143
+[9] (./paper_e.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2482 strings out of 480388
- 34402 string characters out of 5891920
- 356561 words of memory out of 5000000
- 19230 multiletter control sequences out of 15000+600000
- 556720 words of font info for 113 fonts, out of 8000000 for 9000
+ 1968 strings out of 492759
+ 25637 string characters out of 6143227
+ 114792 words of memory out of 5000000
+ 6380 multiletter control sequences out of 15000+600000
+ 25272 words of font info for 98 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 60i,12n,66p,1430b,419s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 38i,12n,33p,1295b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper_e.dvi (9 pages, 66516 bytes).
+Output written on paper_e.dvi (10 pages, 66600 bytes).
