@@ -9,6 +9,7 @@
 \usepackage{color}
 \usepackage{math}
 \usepackage{bm}
+\usepackage{here}
 %\usepackage[dvipdfmx]{graphicx,xcolor}
 \usepackage[dvipdfmx]{epsfig}
 %
@@ -82,17 +83,17 @@ Brassieres are manufactured to meet various demands, such as to Herein we focus 
 \begin{figure}[h!]
 	\centering
 	\subfigure[upper pattern]{
-		\includegraphics[width=0.45\columnwidth]{./figure/UpperPattern.eps}
+		\includegraphics[width=0.45\columnwidth]{./figure/UpperPattern.png}
 		\label{fig:pattern_U}
 	}
 	\hfil
 	\subfigure[lower pattern]{
-		\includegraphics[width=0.45\columnwidth]{./figure/LowerPattern.eps}
+		\includegraphics[width=0.45\columnwidth]{./figure/LowerPattern.png}
 		\label{fig:pattern_L}
 	}
 	\\
 	\subfigure[lower line]{
-		\includegraphics[width=0.35\columnwidth]{./figure/LowerWire.eps}
+		\includegraphics[width=0.35\columnwidth]{./figure/LowerWire.png}
 		\label{fig:Wire}
 	}
 	\caption{Parts of a two-piece brassiere cup}
@@ -105,7 +106,7 @@ In apparel industries, the form of a product is fixed by fashion designers and p
 %%fig
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.25]{./figure/Lines.eps}
+	\includegraphics[scale=0.25]{./figure/Lines.png}
 	\caption{Expression of a wire line, a ridge line and an upper line}
 	\label{fig:TwoCurves}
 \end{figure}
@@ -114,7 +115,7 @@ A previous study on the influence of design on the function of a brassiere cup f
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width= 1.0 \columnwidth]{./figure/DesignProcess2.eps}
+	\includegraphics[width= 1.0 \columnwidth]{./figure/DesignProcess3.png}
 	\caption{Design process of a brassiere cup}
 	\label{fig:process}
 \end{figure}
@@ -122,10 +123,16 @@ A previous study on the influence of design on the function of a brassiere cup f
 %==============================================================%
 Because the cup shape is made by bending and sewing each pattern and is assumed to be inextensible, a cup model consists of several developable surfaces. With respect to modeling of developable surfaces, previously proposed modeling methods have focused on the geodesic line\cite{c2}, B-spline or NURBS surface\cite{c3,c4}, offsets of Bertrand curves, which coincide with each normal direction\cite{c5,c6}, and arbitrary curves\cite{c7}. Martin proposed a method to reconstruct a developable surface from its point clouds based on the Laguerre geometry\cite{c8}. Chen et al. proposed an algorithm to approximate a developable surface from its point cloud\cite{c9}. However, none of these methods reference the developed shape as they focus on a single developable surface. Manufacturing of a brassiere cup requires the pattern shapes (i.e., developed shapes of a cup) but not the 3D cup shape.
 
-\chcolor{In a study to approximate developable surface, Yang et al. proposed a method to approximate surface with meshes composed of planar quadrilaterals\cite{cX1} and Odeo et al. proposed a method to define the developability of triangle meshes and appoximate them by a set of developable surfaces\cite{cX2}, and Martin et al. proposed a method to reconstruct surfaces by curved forming\cite{cX3}. But all of them only focus on approximating surface by developable surface, which means that they do not refer to the condition of a developable surface itself. When designing a brassiere, it is required to satisfy some conditons of a brassiere cup that designers intend.}
+\chcolor{In a study to approximate developable surface, Yang et al. proposed a method to approximate surface with meshes composed of planar quadrilaterals\cite{cX1} and Odeo et al. proposed a method to define the developability of triangle meshes and appoximate them by a set of developable surfaces\cite{cX2}, and Martin et al. proposed a method to reconstruct surfaces by curved forming\cite{cX3}. But all of them only focus on approximating surface by developable surface, which means that they do not refer to the condition of a developable surface itself. In designing a brassire cup, it is required not only to fit a breast shape but also to satisfy some conditions. For example, the upper line has a point where it is connected with the shoulder strap. Hereafter, this point is called the connection point as shown in \rfig{fig:aboutCP}.} 
+\begin{figure}[!h]
+		\centering
+		\includegraphics[width = 0.7\columnwidth]{./figure/Connection_Point.png}
+		\caption{Expression about the connection point of a brassiere cup}
+		\label{fig:aboutCP}
+\end{figure}
 
 In a study on brassieres, Wakamatsu et al. proposed a method to predict the 3D shape of a paper cup model when the 2D shape of a pattern is given\cite{c10,c11}. Hence, patterns can be evaluated without actually creating a paper model. However, repetitive modification of the pattern is still required to obtain the target 3D shape of the cup. Ito et al. developed a paper model CAD system based on the theory of developable surfaces\cite{c12}. If a 3D curve, which means a sewn curve, and a 2D curve, which means a piece to be sewn, are given, this system can identify the feasible region where the sewn surface does not intersect itself. Unfortunately, it is difficult to design the pattern shapes. That is, determining the shape of 2D curves is challenging with this system. 
-We previously proposed a method to design the pattern shape and its developable surface from two lines: a wire line and a ridge line. These lines are obtained by solving the optimization problem when the design parameters are the geodesic curvatures of a pattern shape and the objective function is the error between generatrices determined by the geodesic curvature of a lower edge and the wire line and generatrices determined by the geodesic curvature of an upper edge and the ridge line. However, the previously proposed method requires an iterative process to solve the optimization problem for the intended shape\cite{c13}, which is time-consuming.
+We previously proposed a method to design the pattern shape and its developable surface from two lines: a wire line and a ridge line. These lines are obtained by solving the optimization problem when the design parameters are the geodesic curvatures of a pattern shape and the objective function is the error between generatrices determined by the geodesic curvature of a lower edge and the wire line and generatrices determined by the geodesic curvature of an upper edge and the ridge line. However, the previously proposed method requires an iterative process to solve the optimization problem for the intended shape\cite{MyRef,MyRef2}, which is time-consuming.
 Brassiere patterns are typically comprised of two or three pieces. Herein we focus on a two-piece brassiere cup, and we propose a design method to improve the design efficiency when a cloud of its data points is given. 
 
 %==============================================================%
@@ -160,7 +167,7 @@ where $\mbold{x}_0$ indicates the position at $s=0$.
 
 \begin{figure}[thpb]
 	\centering
-	\includegraphics[width = 0.8\columnwidth]{./figure/Object_Coordinates.eps}
+	\includegraphics[width = 0.8\columnwidth]{./figure/Object_Coordinates.png}
 	\caption{Object coordinate system on the surface}
 	\label{fig:obj_coord}
 \end{figure}
@@ -176,13 +183,13 @@ K &=& \kappa_{\max}  \kappa_{\min}  = \disfrac{LN-M^2}{EG-F^2}, \nonumber \\
 H &=& \disfrac{\kappa_{\max} + \kappa_{\min}}{2} = \frac{EN-2FM+GL}{2(EG-F^2)}. 
 \end{eqnarray}
 
-Here, the coefficients of the first fundamental form are represented as
+Based on the theory of surface, the coefficients of the first fundamental form are represented as
 \begin{equation}
 E = \zetavec \cdot \zetavec = 1, F = \zetavec \cdot \xivec = 0, G = \xivec \cdot \xivec = 1.
 \end{equation}
 In addition, the coefficients of the second fundamental form are represented as
 \begin{equation}
-L = \zetavec' \cdot \eta = -\omega_{\xi}, M = \xivec' \cdot \eta = -\omega_{\zeta}.
+L = \zetavec' \cdot \etavec = -\omega_{\xi}, M = \xivec' \cdot \etavec = -\omega_{\zeta}.
 \end{equation}
 Then Gaussian curvature $K$ and the mean curvature $H$ are described by the following equations
 
@@ -213,33 +220,18 @@ Next, consider the constraint of a developable surface when two curves lie on th
 \mbold{g} = \mbold{x}_b(s_b)-\mbold{x}_a(s_a).
 \end{equation}
 
-Note that $s_a$ can take an arbitrary value against $ s_b $. Therefore, the variation of a generatrix $ \Delta \mbold{g} $ is described by total differential form as
+Note that $s_a$ can take an arbitrary value against $ s_b $. From \cite{MyRef2}, $ \zetavec_a$ and $\zetavec_b $, which are tangent vectors of $ \mbold{x}_a $ and $ \mbold{x}_b $, and $ \mbold{g} $ satisfy the following equation:
 \begin{equation}
-\Delta \mbold{g} = -\zetavec_a \Delta s_a + \zetavec_b \Delta s_b,
+	\det (\zetavec_a, \zetavec_b, \mbold{g})=0. 
+	\label{eq:Cond1}
 \end{equation}
-where $ \zetavec_a$ and $\zetavec_b $ are tangent vectors of $ \mbold{x}_a $ and $ \mbold{x}_b $, respectively. Next, let $ \Theta $ be the infinitesimal plane surrounded by four vectors $ \zetavec_a \Delta s_a, \zetavec_b \Delta s_b,\mbold{g}$, and $\mbold{g}+\Delta \mbold{g} $ (\rfig{fig:Theta}). When the ruled surface is a developable surface, the plane $ \Theta $ is a tangent plane without twisting. Therefore, it leads to following equation:
-\begin{equation}
-\det (\zetavec_a, \mbold{g}, \mbold{g}+\Delta \mbold{g})=0
-\label{eq:det_developeq}
+\req{eq:Cond1} indicates that the arc length of each curve is subordination, When two curves are corresponded to edge lines and $ s_b $ can be expressed as $s_b(s_a)$, $ \mbold{d}_{\min}  = \frac{\mbold{g}}{|\mbold{g}|}$ established. Then, a rib angle is calculated by \req{eq:d1d2_eq} as follows:
+\begin{equation}\label{eq:alphaEq}
+	\alpha_a = \sin^{-1} \mbold{d}_{\min} \cdot \zeta_a
 \end{equation}
-Solving \req{eq:det_developeq} gives
-\begin{equation}
-\det (\zetavec_a, \zetavec_b, \mbold{g})=0
-\label{eq:Cond1}
-\end{equation}
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width = 0.8\columnwidth]{./figure/Theta.eps}
-	\caption{Definition of $ \Theta $}
-	\label{fig:Theta}
-\end{figure}
-\req{eq:Cond1} indicates that the arc length of each curve is subordination. When two curves are corresponded to edge lines and $s_b$ can be expressed as $s_b(s_a)$, $\mbold{d}_{\min}\equiv\frac{\mbold{g}}{|\mbold{g}|}$ is established. Then, a rib angle is calculated by \req{eq:d1d2_eq} as follows:
-\begin{equation}
-\alpha = -\sin^{-1}\left( \mbold{d}_{\min} \cdot \zetavec_a \right).
-\end{equation}
-Using $\mbold{d}_{\min}$ and $\alpha$, $\mbold{\omega}$ can be represented as
+Then, using $ \mbold{d}_{\min} $ and $\alpha $, $ \mbold{\omega} $ can be represented as
 \begin{equation}\label{eq:omegaVec}
-\mbold{\omega} = \left[\begin{array}{c} -\det(\zetavec_a',\zetavec_a, \mbold{d}_{\min} ) \\ \zetavec_a' \cdot \mbold{d}_{\min} \\ \det(\zetavec_a',\zetavec_a, \mbold{d}_{\min} ) \tan \alpha \end{array}\right] 
+\mbold{\omega} = \left[\begin{array}{c} -\det(\zetavec_a',\zetavec_a, \mbold{d}_{\min} ) \\ \zetavec_a' \cdot \mbold{d}_{\min} \\ \det(\zetavec_a',\zetavec_a, \mbold{d}_{\min} ) \tan \alpha_a \end{array}\right] 
 \end{equation}
 Therefore, when two curves that lie on the surface are given, a developable surface can be determined.
 
@@ -303,12 +295,12 @@ First, using \req{eq:d_mindoteq,eq:d_maxdoteq,eq:t*_eq}, the nearest surface par
 \begin{figure}[thpb]
 	\centering
 	\subfigure[$ t^*\leq t_{\max} $]{
-		\includegraphics[width=0.45\columnwidth]{./figure/NotExceeding.eps}
+		\includegraphics[width=0.45\columnwidth]{./figure/NotExceeding.png}
 		\label{fig:inD_L}
 	}
 	\hfil
 	\subfigure[$ t^* > t_{\max} $]{
-		\includegraphics[width=0.45\columnwidth]{./figure/Exceeding.eps}
+		\includegraphics[width=0.45\columnwidth]{./figure/Exceeding.png}
 		\label{fig:inD_U}
 	}
 	\caption{Relationship between $ t^*$ and $t_{\max}$.}
@@ -358,14 +350,7 @@ To guarantee that $ S_L $ and $ S_U $  are developable surfaces, the following e
 \begin{equation}\label{eq:conds_DevSur2}
 	\int_{0}^{L_L} \det (\zetavec_U(s_u(s_w)), \zetavec_W(s_w), \mbold{g}) ds_w = 0.
 \end{equation}
-Next, consider a “fuzzy” condition for a brassiere cup. The upper line has a point where it is connected with the shoulder strap. Hereafter, this point is called the connection point. 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width = 0.7\columnwidth]{./figure/Connection_Point.eps}
-	\caption{Expression about the connection point of a brassiere cup}
-	\label{fig:aboutCP}
-\end{figure}
-Typically, this point is given as a fuzzy condition in the design process. This can lead to an unexpected error in the optimization problem. Therefore, we propose the following equation to deal with this fuzzy condition $ y \simeq Y $:
+Next, consider a “fuzzy” condition for a brassiere cup. As mentioned, the upper line has a connection point as shown in \rfig{fig:aboutCP}. But it is typically given as a fuzzy condition in the design process. This can lead to an unexpected error in the optimization problem. Therefore, we propose the following equation to deal with this fuzzy condition $ y \simeq Y $:
 \begin{equation}\label{eq:FuzzyEq}
 C(y,Y) = k_1 \exp( k_2(y-Y)^2 )
 \end{equation}
@@ -403,8 +388,7 @@ and the position $ \mbold{x}_R(s_r) \equiv \tilde{\mbold{x}}_R(s_w) $ and $ \mbo
 \begin{equation}\label{eq:U_eq}
 \mbold{\psi}_U = \left[ \begin{array}{ccc} \mbold{a}_{\omega_{\xi_U}} \cdot  \mbold{e}(s_w) & \mbold{a}_{\omega_{\eta_U}} \cdot  \mbold{e}(s_w) & \mbold{a}_{\upsilon_U} \cdot  \mbold{e}(s_w)  \end{array} \right]
 \end{equation}
-where $ \mbold{e}_i(s) $ is composed of trigonometric functions with different periods. Let $ \mbold{\Phi}_0 = [\xivec_0^\mathrm{T} \;\; \etavec_0^\mathrm{T} \;\; \zetavec_0^\mathrm{T}] $ be the initial basis of the objective coordinate system.
-
+where $ \mbold{e}_i(s) $ is composed of trigonometric functions with different periods. \chcolor{Let $ \mbold{\Phi}_0 = [\xivec_0^\mathrm{T} \;\; \etavec_0^\mathrm{T} \;\; \zetavec_0^\mathrm{T}] $ be the initial basis of the objective coordinate system, $ \mbold{a}_R $ be a set of the vectors $ [\mbold{a}_{\omega_{\xi_R}} \;\; \mbold{a}_{\omega_{\eta_R}} \;\; \mbold{a}_{\upsilon_R}] $ and  $ \mbold{a}_U $ be a set of the vectors $ [\mbold{a}_{\omega_{\xi_U}} \;\; \mbold{a}_{\omega_{\eta_U}} \;\; \mbold{a}_{\upsilon_U}] $.}
 From above, the objective function, which is expressed as \req{eq:ObjectFunc}, and the geometric constraints, which are expressed as  \req{eq:conds_endp1,eq:conds_endp2,eq:conds_DevSur1,eq:conds_DevSur2} are described by the following total parameter vector 
 \begin{equation}\label{eq:TotalCoefs}
 \mbold{a}_{\mathrm{all}} = \left[ \begin{array}{cccc}
@@ -415,115 +399,176 @@ From above, the objective function, which is expressed as \req{eq:ObjectFunc}, a
 Consequently, this problem can be converted into a nonlinear programming problem of $ \mbold{a} $, which is solved using the multiplier method and Nelder-Mead method in this study. By solving the nonlinear programming problem, we can design the entire shape of a two-piece brassiere cup. 
 
 \section*{SIMULATION AND VERIFICATION}
-To demonstrate the utility of our method, we conducted simulations and a verification. For the verification, the infinitesimal rotational ratios vector   of the wire line is given as
+To demonstrate the utility of our method, we conducted simulations and a verification. 
+\subsection*{Simulation Example}
+For simulation, the infinitesimal rotational ratios vector   of the wire line is given as
 \begin{equation}\label{eq:vrf_omgW}
-\mbold{\omega}_W = \left[ \begin{array}{ccc}
-0 & 2.91 & 0
-\end{array}\right]^\mathrm{T}, 
+	\mbold{\omega}_W = \left[ \begin{array}{ccc}
+	0 & 2.91 & 0
+	\end{array}\right]^\mathrm{T}, 
 \end{equation}
-while the connection point $ \mbold{X}_C $ is given as 
+while the connection point $ \mbold{X}_C $ is \chcolor{given in case (1) and (2) as} 
 \begin{equation}\label{eq:givenXc}
-\mbold{X}_C = \left[ \begin{array}{ccc}
-0 & 0.34 & 0.34
-\end{array}\right]^\mathrm{T}.
+	\mbold{X}_C = \left[ \begin{array}{ccc}
+	0 & 0.34 & 0.34
+	\end{array}\right]^\mathrm{T},
 \end{equation}
-We prepared three examples of the simulation. Case (1) is a point cloud on a set of a developable surface by a uniform random number using \req{eq:Sur_eq}. Case (2) is a point cloud on a sphere whose radius is set on R by a uniform random number. \chcolor{Case (3) is a point cloud on a measured shape of a torso, which is a representative breast shape.}
-The simulations aim to confirm that the propose method recreates a given shape and to verify whether a two-piece brassiere cup can be designed to approximate an undevelopable surface that manifests the function of “fitting to a breast”.  
+We prepared tho examples of the simulation. Case (1) is a point cloud on a set of a developable surface by a uniform random number using \req{eq:Sur_eq}. Case (2) is a point cloud on a sphere whose radius is set on R by a uniform random number. The simulations aim to confirm that the propose method recreates a given shape and to verify whether a two-piece brassiere cup can be designed to approximate an undevelopable surface.
 
-\rfig{fig:ObtainedSurfaceNDS} shows the obtained shape and input data for Case (1), where the solid line represents the given wire line. Each dotted line denotes the calculated generatrices of the cup shape, and each dot represents a data point.  \rfig{fig:ObtainedSurfaceNDS_Pat} shows the obtained pattern where the solid and dotted lines denote the lower and upper edges, respectively. 
-Next, a uniform random number was generated by numpy.random() of Python. \rfig{fig:ObtainedSurfaceNDS} shows the obtained shape and input data for Case (2), \chcolor{and \rfig{fig:ObtainedSurfaceNDS2} shows the obtained shape and input data for Case (3) Table \ref{tbl:error and calc} shows the error and calculation time of each case. }
-
-\chcolor{From the result of case(1), we confirm that our proposed method can recreate a given shape as a two-piece brassire cup. And From the result of case(2) and (3), we confirm that our proposed method also can design a two-piece brassiere cup to approximate data points under the conditions.}
-
-Hence, we conclude our proposed method in this paper is useful for the efficient design of paper patterns of a two-piece brassiere cup.
-\begin{table}[!h]
+\rfig{fig:ObtainedSurfaceDS} shows the obtained shape and input data for Case (1), where the solid line represents the given wire line. Each dotted line denotes the calculated generatrices of the cup shape, and each dot represents a data point.  \rfig{fig:ObtainedSurfaceDS_Pat} shows the obtained pattern where the solid and dotted lines denote the lower and upper edges, respectively.
+Next, a uniform random number was generated by numpy.random() of Python. \rfig{fig:ObtainedSurfaceNDS} shows the obtained shape and input data for Case (2). \rtab{tbl:error and calc_Example} shows the error and calculation time of case(1) and (2).
+\begin{table}[h]
 	\centering
-	\begin{tabular}{|c|c|c|c|} \hline
-		& Error & Time[sec] \\ \hline
+	\begin{tabular}{|c|c|c|} \hline
+		-& Error & Time[sec] \\ \hline
 		case(1) & 0.10 & 1802 \\ \hline
 		case(2) & 0.12 & 740 \\ \hline
-		case(3) & 1.04& 1682 \\ \hline
 	\end{tabular}
-	\caption{The error and calculation time of our proposed method in each case.}
-	\label{tbl:error and calc}
+	\caption{The error and calculation time of our proposed method in case(1) and (2).}
+	\label{tbl:error and calc_Example}
+\end{table}
+For this result, we confirm that our proposed method can recreate a given shape as a two-piece brassire cup and approximate an undevelopable surface.
+
+\subsection*{Experimental Verification}
+For confirming the verification, we measured a breast shape of the torso, which is a typical breast shape, and apply our proposed method to it. A wire line is the same as \req{eq:vrf_omgW}, and the connection point is given as 
+\begin{equation}\label{eq:givenXc2}
+	\mbold{X}_C = \left[ \begin{array}{ccc}
+	0.2 & 0.41 & 0.27
+	\end{array}\right]^\mathrm{T}.
+\end{equation}
+In measured the entire shape of a torso, we used the measured point cloud that satisfies $ y \leq 0.2 $ as shown in \rfig{fig:Border}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.6\columnwidth]{./figure/Measure/SetLine.png}
+	\caption{The border line to use a point cloud in the experiment.}
+	\label{fig:Border}
+\end{figure}  
+\chcolor{The simulations aim to confirm that the propose method whether a two-piece brassiere cup can be designed to approximate an undevelopable surface that manifests the function of “fitting to a breast” .\rfig{fig:ObtainedSurfaceNDS2} shows the obtained shape and input data of experiments,  \rfig{fig:ObtainedSurfaceNDS2_Pat} shows the obtained pattern. In \rfig{fig:ObtainedSurfaceNDS2} and \rfig{fig:ObtainedSurfaceNDS2_Pat}, we set $ L_M = 72.8$. } \chcolor{\rtab{tbl:error and calc2} shows the error and calculation time of the experiment. From the result, we confirm that our proposed method also can design a two-piece brassiere cup to approximate data points under the conditions.
+Hence, we conclude our proposed method in this paper is useful for the efficient design of paper patterns of a two-piece brassiere cup.}
+\begin{table}[!h]
+	\centering
+	\begin{tabular}{|c|c|} \hline
+		Error & Time[sec] \\ \hline
+		1.04& 1682 \\ \hline
+	\end{tabular}
+	\caption{The error and calculation time of the proposed method in experiment.}
+	\label{tbl:error and calc2}
 \end{table}
 
 \begin{figure}[h]
 	\centering
 	\subfigure[zx-view]{
-		\includegraphics[width=0.6\columnwidth,clip]{./figure/NDS/ObtainedRidgeLinefromz-x.eps}
-		\label{fig:zx-NDS}
-	}
-	\hfil
-	\subfigure[zy-view]{
-		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromz-y.eps}
-		\label{fig:zy-NDS}
-	}
-	\hfil
-	\subfigure[xy-view]{
-		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromx-y.eps}
-		\label{fig:xy-NDS}
-	}
-	\caption{Obtained shape and input data points in Case(1)}
-	\label{fig:ObtainedSurfaceNDS}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\subfigure[LOWER PATTERN]{
-		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternL.eps}
-		\label{fig:low-NDS}
-	}
-	\hfil
-	\subfigure[UPPER PATTERN]{
-		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternU.eps}
-		\label{fig:upp-NDS}
-	}
-	
-	\caption{Obtained patterns in Case(1)}
-	\label{fig:ObtainedSurfaceNDS_Pat}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\subfigure[zx-view]{
-		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-x.eps}
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-x.png}
 		\label{fig:zx-DS}
 	}
 	\hfil
 	\subfigure[zy-view]{
-		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-y.eps}
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromz-y.png}
 		\label{fig:zy-DS}
 	}
 	\hfil
 	\subfigure[zy-view]{
-		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromx-y.eps}
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedRidgeLinefromx-y.png}
 		\label{fig:xy-DS}
 	}
 	\caption{Obtained shape and input data points in Case(2)}
 	\label{fig:ObtainedSurfaceDS}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
-	\subfigure[LOWER PATTERN]{
-		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternL.eps}
+	\subfigure[Lower pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternL.png}
 		\label{fig:low-DS}
 	}
 	\hfil
-	\subfigure[UPPER PATTERN]{
-		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternU.eps}
+	\subfigure[Upper pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/DS/ObtainedPatternU.png}
 		\label{fig:upp-DS}
+	}
+	\caption{Obtained patterns in Case(1)}
+	\label{fig:ObtainedSurfaceDS_Pat}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[zx-view]{
+		\includegraphics[width=0.6\columnwidth,clip]{./figure/NDS/ObtainedRidgeLinefromz-x.png}
+		\label{fig:zx-NDS}
+	}
+	\hfil
+	\subfigure[zy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromz-y.png}
+		\label{fig:zy-NDS}
+	}
+	\hfil
+	\subfigure[xy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedRidgeLinefromx-y.png}
+		\label{fig:xy-NDS}
+	}
+	\caption{Obtained shape and input data points in Case(2)}
+	\label{fig:ObtainedSurfaceNDS}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[Lower pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternL.png}
+		\label{fig:low-NDS}
+	}
+	\hfil
+	\subfigure[Upper pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/NDS/ObtainedPatternU.png}
+		\label{fig:upp-NDS}
 	}
 	
 	\caption{Obtained patterns in Case(2)}
-	\label{fig:ObtainedSurfaceDS_Pat}
+	\label{fig:ObtainedSurfaceNDS_Pat}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[zx-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/Measure/ObtainedRidgeLinefromz-x.png}
+		\label{fig:zx-NDS2}
+	}
+	\hfil
+	\subfigure[zy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/Measure/ObtainedRidgeLinefromz-y.png}
+		\label{fig:zy-NDS2}
+	}
+	\hfil
+	\subfigure[xy-view]{
+		\includegraphics[width=0.6\columnwidth]{./figure/Measure/ObtainedRidgeLinefromx-y.png}
+		\label{fig:xy-NDS2}
+	}
+	\caption{Obtained shape and input data points in the experiment}
+	\label{fig:ObtainedSurfaceNDS2}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[Lower pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/Measure/ObtainedPatternL.png}
+		\label{fig:low-NDS2}
+	}
+	\hfil
+	\subfigure[Upper pattern]{
+		\includegraphics[width=0.6\columnwidth]{./figure/Measure/ObtainedPatternU.png}
+		\label{fig:upp-NDS2}
+	}
+	
+	\caption{Obtained patterns in the experiment}
+	\label{fig:ObtainedSurfaceNDS2_Pat}
+\end{figure}
+
+
 \section*{CONCLUSION}
 \subsection*{Summary}
 Herein we propose a method to design the shape of a two-piece brassiere cup and its patterns to satisfy the function of "fitting to a breast shape" when the shape is given as a cloud of data points. In the typical design process, a cup model is made of paper to verify the pattern shape. Our model assumes that the model surface is comprised of several developable surfaces. First, we formulate the cup model based on differential geometry and hypothesize that a developable surface can be determined by two curves included in it. Hence, the design process of a two-piece brassiere cup can be converted into an optimization problem, whose objective function is the error between the cup shape and its data points. To calculate the error, first the error between a point and the surface from the geometry condition is formulated. Second, our proposed method divides the data cloud into two: the lower and upper cups. Then the cups are evaluated. To verify our proposed method, we assessed two cases. One is a non-developable surface, and the other is a developable surface. The results confirm that the proposed method can design a cup shape, which manifests the intended function. Consequently, our proposed method should be useful to efficiently design a two-piece brassiere cup. 
 \subsection*{Limitation and Future Work}
-\chcolor{Though we proposed a method to design the shape of a two-piece brassiere cup and its patterns to satisfy the function of "fitting to a breast shape" when the shape is given as a cloud of data points, there is still two questions from the point of view of real-world applications. One is whether the brassire cup should cover the breast shape. A brassire cup has several demands, which include the function to form the ideal breast shape. So the function of "fitting to a breast shape" does not only mean fitting to a breast shape itself, but also fitting to an ideal breast shape one wants. For future work, it is required to quantify how much fitting to a breast shape and design the brassire cup shape satisfying it.}
+\chcolor{Though we proposed a method to design the shape of a two-piece brassiere cup and its patterns to satisfy the function of "fitting to a breast shape" when the shape is given as a cloud of data points, there is still a  question from the point of view of real-world applications. This is whether the brassire cup should cover the breast shape. A brassire cup has several demands, which include the function to form the ideal breast shape. So the function of "fitting to a breast shape" does not only mean fitting to a breast shape itself, but also fitting to an ideal breast shape one wants. For future work, to quantify how much fitting a breast shape and controll it are required.}
 %a this paper, a method to design the cup shape of two-piece brassiere cup and its patterns was proposed when its target shape is given as a cloud of data points. As a cup model for check of the shapes of patterns is made of paper, it is assumed that the surface of the model is composed of several developable surfaces. We claimed that a developable surface can be determined by two curves included in it. The design process of a two-piece brassiere cup can be converted to the optimization problem, whose objective function is the error between the cup shape and its data points. In order to calculate the error, we proposed a method to divide a data cloud into two clouds: evaluated by the lower cup, or evaluated by the upper cup. It was experimentally verified that the cup shape calculated by our proposed method reproduced the given data points well. Our proposed method will be useful for efficient design of not only patterns of a brassiere cup but also plate parts of a structure consisting of developable surfaces.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -540,10 +585,15 @@ Herein we propose a method to design the shape of a two-piece brassiere cup and 
 	\bibitem{c7}R.M.C Bodduluri and B.Ravani, {\it "Design of developable surfaces using duality between plane and point geometries"}, in Computer Aided Design Volume 25, 1993, pp.621-632.
 	\bibitem{c8}M. Peternell, {\it "Developable surface fitting to point clouds"}, in Computer Aided Design Vol.21, 2004, pp.785-803.
 	\bibitem{c9}H.-Y. Chen, I.-K. Lee, S. Leopoldseder, H. Pottmann, T. Randrup , J. Wallner, {\it "On Surface Approximation using Developable Surfaces"}, Graphical Models and Image Processing, Volume 61, Issue2, 1999, pp.110-124
+	\bibitem{cX1} Y. Liu, H. Pottmann, J. Wallner, Y.-L. Yang, and W. Wang, {\it "Geometric modeling with conical meshes and developable surfaces"}, Proc.Int. Symp. SIGGRAPH, 2006, pp.681-689
+	\bibitem{cX2} O. Stein, E. Grinspun, and K. Crane, {\it Developability of triangle meshes}, ACM Transaction on Graphics, Vol.37, Issue4, 2018, pp77:1-14
+	\bibitem{cX3} M. Kilian, S. Flöry, Z. Chen, N. J. Mitra, A. Sheffer, and H. Pottmann, {\it Curved folding}, ACM Transaction on Graphics, Vol.27, Issue3, 2008, pp1-9
 	\bibitem{c10} H.Wakamatsu, Y.Ryu, E.Morinaga, E.Arai, and T. Kubo, M.Oyama, and T.Kishimoto, {\it "3D Shape Prediction of A Paper Model of Two Piece Brassiere Cup for Its Efficient Design"}, Proc.Int. Symp. Flexible Automation, 2016, pp.326-332
 	\bibitem{c11} H.Wakamatsu, E.Morinaga, E.Arai, and T. Kubo, {\it "A Virtual Paper Model of a Three Piece Brassiere Cup to Improve the Efficiency of Cup Design Process"}, Proc. 2017 IEEE Int. Conf. on Robotics and Automation, 2017. 
 	\bibitem{c12}M.Itoh, and H.Imaoka, {\it "A Method of Prediction Sewn Shapes and a Possibility of Sewing by the Theory of Developable Surfaces"}, J. the Japan Research Association for Textile End-Uses, Volume 48, 2007, pp.42-51, (Japanese).
 	\bibitem{MyRef} Kotaro Yoshida, Hidefumi Wakamatsu, Eiji Morinaga, Eiji Arai, Seiichiro Tsutsumi, Takahiro Kubo,{\it "Pattern Shape Optimization of a Two-piece brassiere cup to improve its design efficiency"}, Trans. of the Institute of Systems, Control and Information Engineers, Volume 32, No. 5, 2019, pp. 192-202.
+	\bibitem{MyRef2} Kotaro Yoshida, Hidefumi Wakamatsu, Eiji Morinaga, Seiichiro Tsutsumi, and Takahiro Kubo, {\it Design support of a developable surface considering its bending energy}, Transaction of the JSME, Vol.86, No.890, 2020, pp20-36(in Japanese)
+	\bibitem{cX4} S. Kobayashi, {\it "Differential Geometry of Curves and Surface"}, Shokado, Tokyo, 1995, Chap2 (in Japanse)
 	\bibitem{c13}Elsgolc L.E {\it Calculus of Variations}, Pergamon Press, 1961, pp. 144-157.
 \end{thebibliography}
 

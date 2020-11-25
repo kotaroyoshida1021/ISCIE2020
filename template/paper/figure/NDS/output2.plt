@@ -9,8 +9,10 @@ set size ratio -1
 plot "WireImage.txt" using 1:2 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 1:2 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:2 lc "black" title "Data points"
 #plot "RidgeImage.txt" using 1:2 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 1:2 lc "black" title "Data points"
 #set terminal epscairo crop
-set terminal postscript eps
-set output "ObtainedRidgeLinefromz-x.eps"
+#set terminal postscript eps
+#set output "ObtainedRidgeLinefromz-x.eps"
+set terminal pngcairo enhanced crop
+set output "ObtainedRidgeLinefromz-x.png"
 
 replot
 
@@ -27,8 +29,10 @@ set size ratio -1
 
 plot "WireImage.txt" using 1:3 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 1:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:3 lc "black" title "Data points"
 #plot "RidgeImage.txt" using 1:3 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 1:3 lc "black" title "Data points"
-set terminal postscript eps
-set output "ObtainedRidgeLinefromz-y.eps"
+#set terminal postscript eps
+#set output "ObtainedRidgeLinefromz-y.eps"
+set terminal pngcairo enhanced crop
+set output "ObtainedRidgeLinefromz-y.png"
 
 replot
 reset
@@ -42,8 +46,10 @@ set key font "Arial,20"
 set size ratio -1
 #plot "RidgeImage.txt" using 2:3 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 2:3 lc "black" title "Data points"
 plot "WireImage.txt" using 2:3 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 2:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 2:3 lc "black" title "Data points"
-set terminal postscript eps
-set output "ObtainedRidgeLinefromx-y.eps"
+#set terminal postscript eps
+#set output "ObtainedRidgeLinefromx-y.eps"
+set terminal pngcairo enhanced crop
+set output "ObtainedRidgeLinefromx-y.png"
 
 replot
 reset
@@ -67,10 +73,15 @@ set ylabel offset 0,0
 set xlabel "{/=30 v}"
 set ylabel "{/=30 w}" 
 set key font "Arial,20"
-plot "Rib_LR.txt" using 1:2 with lines linewidth 2 title "Calculated Lower edge","Rib_LR.txt" using 3:4 with lines linewidth 2 title "Calculated Upper edge"
+set size ratio -1
+set yrange [-0.1:0.35]
 
-set terminal postscript eps
-set output "ObtainedPatternL.eps"
+plot "Rib_LR.txt" using 1:2 with lines lc "black" linewidth 2 title "Calculated Lower edge","Rib_LR.txt" using 3:4 with lines dt (10,5) lc "grey40" linewidth 2 title "Calculated Upper edge"
+
+#set terminal postscript eps
+#set output "ObtainedPatternL.eps"
+set terminal pngcairo enhanced crop
+set output "ObtainedPatternL.png"
 
 replot
 reset
@@ -80,10 +91,15 @@ set ylabel offset 0,0
 set xlabel "{/=30 v}"
 set ylabel "{/=30 w}" 
 set key font "Arial,20"
-plot "Rib_UR.txt" using 1:2 with lines linewidth 2 title "Calculated Lower edge","Rib_UR.txt" using 3:4 with lines linewidth 2 title "Calculated Upper edge"
+set size ratio -1
+set yrange [-0.15:0.35]
+plot "Rib_UR.txt" using 1:2 with lines lc "black" linewidth 2 title "Calculated Lower edge","Rib_UR.txt" using 3:4 with lines dt (10,5) lc "grey40" linewidth 2 title "Calculated Upper edge"
 
-set terminal postscript eps
-set output "ObtainedPatternU.eps"
+#set terminal postscript eps
+#set output "ObtainedPatternU.eps"
+set terminal pngcairo enhanced crop
+set output "ObtainedPatternU.png"
+
 
 replot
 reset
