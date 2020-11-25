@@ -1,19 +1,24 @@
+<<<<<<< HEAD
 This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.12.23)  25 NOV 2020 22:44
+=======
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.6.30)  25 NOV 2020 12:46
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper_e.tex
+**./paper_e.tex
 (./paper_e.tex
-pLaTeX2e <2019-10-01>+1 (based on LaTeX2e <2019-10-01> patch level 3)
+pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (./scitrans.cls
 Document Class: scitrans 
-(c:/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty
+(c:/w32tex/share/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
+(c:/w32tex/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./scims.sty
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
@@ -32,19 +37,19 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
 \zh=\dimen119
 \H=\dimen120
 
-(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(c:/w32tex/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/w32tex/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count83
-\c@section=\count84
-\c@subsection=\count85
-\c@subsubsection=\count86
-\c@paragraph=\count87
-\c@subparagraph=\count88
-\c@figure=\count89
-\c@table=\count90
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen121
@@ -53,109 +58,110 @@ File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 \Q=\dimen122
 \eikotopsep=\dimen123
 \ronbuntitleheight=\dimen124
-\c@series=\count91
+\c@series=\count90
 \fnindent=\dimen125
-\c@volumepage=\count92
-\c@diffvolumepage=\count93
+\c@volumepage=\count91
+\c@diffvolumepage=\count92
 \addressindent=\dimen126
-\c@numberofaddress=\count94
-\tmpaddressbox=\box43
+\c@numberofaddress=\count93
+\tmpaddressbox=\box42
 \eikoparagraphtitlelength=\dimen127
-\@fncnt=\count95
-\c@savedpageout=\count96
+\@fncnt=\count94
+\c@savedpageout=\count95
 \@stpage=\toks15
 \@stpageout=\toks16
-\c@remark=\count97
-\c@assumption=\count98
-\c@theorem=\count99
-\c@lemma=\count100
-\c@proposition=\count101
-\c@corollary=\count102
-\c@definition=\count103
-\c@example=\count104
+\c@remark=\count96
+\c@assumption=\count97
+\c@theorem=\count98
+\c@lemma=\count99
+\c@proposition=\count100
+\c@corollary=\count101
+\c@definition=\count102
+\c@example=\count103
 \enumleftmargin=\dimen128
-\c@@@@first=\count105
-\c@@@@state=\count106
-\c@@@@next=\count107
-\c@@@@cur=\count108
-\c@@@@curt=\count109
+\c@@@@first=\count104
+\c@@@@state=\count105
+\c@@@@next=\count106
+\c@@@@cur=\count107
+\c@@@@curt=\count108
 \hagi@eqnarraysep=\dimen129
 \mathindent=\dimen130
 \@stequation=\toks17
-\c@footequation=\count110
+\c@footequation=\count109
 \eikofootnotelinewidth=\dimen131
-\c@subfigure=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@lotdepth=\count114
-\c@IHdiffpage=\count115
-\c@IHlastpage=\count116
-\@minsofar=\count117
-\@min=\count118
-\@Float@temp=\count119
-\@Env@temp=\count120
-\@Eq@temp=\count121
+\c@subfigure=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@lotdepth=\count113
+\c@IHdiffpage=\count114
+\c@IHlastpage=\count115
+\@minsofar=\count116
+\@min=\count117
+\@Float@temp=\count118
+\@Env@temp=\count119
+\@Eq@temp=\count120
 \eiko@rubywidth=\dimen132
-\c@eikobiographycount=\count122
+\c@eikobiographycount=\count121
 \lfsep=\dimen133
 \@parwd=\dimen134
-\@nlp=\count123
-\@nlpi=\count124
-\@nltop=\count125
+\@nlp=\count122
+\@nlpi=\count123
+\@nltop=\count124
 \arrayrulethickwidth=\dimen135
 \hdashlinewidth=\dimen136
 \hdashlinegap=\dimen137
-\hdl@totalheight=\count126
-\hdl@totalheightsave=\count127
-\hdl@columns=\count128
-\hdl@currentcolumn=\count129
-\hdl@currentcolumnsave=\count130
-\hdl@box=\box44
+\hdl@totalheight=\count125
+\hdl@totalheightsave=\count126
+\hdl@columns=\count127
+\hdl@currentcolumn=\count128
+\hdl@currentcolumnsave=\count129
+\hdl@box=\box43
 \hdl@height=\dimen138
 \hdl@heightsave=\dimen139
 \hdl@depth=\dimen140
 \hdl@depthsave=\dimen141
-\@slashboxa=\box45
-\@slashboxb=\box46
-\@slashboxc=\box47
-\@slashboxwd=\count131
-\@slashboxht=\count132
+\@slashboxa=\box44
+\@slashboxb=\box45
+\@slashboxc=\box46
+\@slashboxwd=\count130
+\@slashboxht=\count131
 \@slashsepl=\dimen142
 \@slashsepr=\dimen143
 \dimen@@=\dimen144
 \dimen@@@=\dimen145
 \@eikolastfootheight=\dimen146
-\@eikolastfootnote=\box48
-\@eikolastrightfootnote=\box49
-\c@tmpeikocounter=\count133
+\@eikolastfootnote=\box47
+\@eikolastrightfootnote=\box48
+\c@tmpeikocounter=\count132
 \@interlinegap=\skip43
-\@leftcolumnfootnote=\box50
-\@rightcolumnfootnote=\box51
-)) (c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+\@leftcolumnfootnote=\box49
+\@rightcolumnfootnote=\box50
+)) (c:/w32tex/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvips.def on input line 147.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvips.def
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) (./math.sty
-\switchcase=\count134
+\switchcase=\count133
 )
-(c:/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+(c:/w32tex/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
 \symboldletters=\mathgroup6
 \symboldsymbols=\mathgroup7
 \symboldlasy=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 209.
+LaTeX Info: Redefining \bm on input line 207.
 )
+<<<<<<< HEAD
 (c:/texlive/2019/texmf-dist/tex/latex/here/here.sty)
 (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -166,27 +172,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box53
 )
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+=======
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/epsfig.sty
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen147
@@ -299,8 +308,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+<<<<<<< HEAD
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 115.
 \@tmpcnta=\count136
+=======
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 114.
+\@tmpcnta=\count134
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 [1
 
 
@@ -324,12 +338,27 @@ Overfull \hbox (21.71971pt too wide) in paragraph at lines 140--140
 []\OT1/cmr/bx/n/12 MODELING OF DE-VEL-OPABLE SUR-
  []
 
+<<<<<<< HEAD
 \@tmpcnta=\count137
 [2]
 File: ./figure/Object_Coordinates.png Graphic file (type bmp)
 <./figure/Object_Coordinates.png>
 \@tmpcnta=\count138
  [3]
+=======
+\@tmpcnta=\count135
+[2]
+File: ./figure/Object_Coordinates.eps Graphic file (type eps)
+<./figure/Object_Coordinates.eps>
+
+
+LaTeX Warning: Citation `cX4' on page 3 undefined on input line 172.
+
+\@tmpcnta=\count136
+[3]
+File: ./figure/Theta.eps Graphic file (type eps)
+<./figure/Theta.eps>
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 File: ./figure/PatternImage2.eps Graphic file (type eps)
 <./figure/PatternImage2.eps>
 
@@ -347,7 +376,11 @@ Overfull \hbox (2.59938pt too wide) in paragraph at lines 270--270
 []\OT1/cmr/bx/n/10.95 Formulation of the er-ror be-tween a point
  []
 
+<<<<<<< HEAD
 \@tmpcnta=\count139
+=======
+\@tmpcnta=\count137
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 [4]
 Overfull \hbox (14.01512pt too wide) in paragraph at lines 292--293
 \OT1/cmr/m/n/10 ridge line, and up-per line and let $[][](\OML/cmm/m/it/10 s[]\
@@ -361,7 +394,13 @@ File: ./figure/NotExceeding.png Graphic file (type bmp)
 File: ./figure/Exceeding.png Graphic file (type bmp)
 <./figure/Exceeding.png>
 
+<<<<<<< HEAD
 Overfull \hbox (15.81535pt too wide) in paragraph at lines 363--363
+=======
+\@tmpcnta=\count138
+[5]
+Overfull \hbox (15.81535pt too wide) in paragraph at lines 378--378
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 []\OT1/cmr/bx/n/10.95 Procedure to Solve the Op-ti-miza-tion Prob-
  []
 
@@ -384,12 +423,16 @@ Overfull \hbox (10.5129pt too wide) in paragraph at lines 401--401
 []\OT1/cmr/bx/n/12 SIMULATION AND VER-I-FI-CA-TION 
  []
 
+<<<<<<< HEAD
 File: ./figure/Measure/SetLine.png Graphic file (type bmp)
 <./figure/Measure/SetLine.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 \@tmpcnta=\count141
+=======
+\@tmpcnta=\count139
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 [6]
 File: ./figure/DS/ObtainedRidgeLinefromz-x.png Graphic file (type bmp)
 <./figure/DS/ObtainedRidgeLinefromz-x.png>
@@ -449,9 +492,19 @@ Underfull \hbox (badness 1983) in paragraph at lines 580--581
 []\OT1/cmr/m/n/9 P.Bo and W.Wang, \OT1/cmr/m/it/9 "Geodesic-Controlled De-vel-
  []
 
+<<<<<<< HEAD
 \@tmpcnta=\count143
 [8]
 Underfull \hbox (badness 3803) in paragraph at lines 594--595
+=======
+\@tmpcnta=\count140
+[7]
+Missing character: There is no ^^ef in font cmr9!
+Missing character: There is no ^^ac in font cmr9!
+Missing character: There is no ^^81 in font cmr9!
+
+Underfull \hbox (badness 3803) in paragraph at lines 546--547
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 \OT1/cmr/m/n/9 naga, Eiji Arai, Sei-ichiro Tsut-sumi, Takahiro
  []
 
@@ -470,8 +523,14 @@ Overfull \hbox (12.80872pt too wide) in paragraph at lines 615--615
 []\OT1/cmr/m/n/9 HidefumiWakamatsu re-ceived his B.Eng.,
  []
 
+<<<<<<< HEAD
 
 Overfull \hbox (15.29132pt too wide) in paragraph at lines 630--630
+=======
+\@tmpcnta=\count141
+[8]
+Overfull \hbox (15.29132pt too wide) in paragraph at lines 580--580
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 []\OT1/cmr/m/n/9 Eiji Mori-naga re-ceived his B.Eng., M.Eng.
  []
 
@@ -500,13 +559,18 @@ Overfull \hbox (8.0366pt too wide) in paragraph at lines 630--630
 \OT1/cmr/m/n/9 in 2000, 2002 and 2005, re-spec-tively. From
  []
 
+<<<<<<< HEAD
 \@tmpcnta=\count144
+=======
+\@tmpcnta=\count142
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
 [9] (./paper_e.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  2076 strings out of 492759
  27745 string characters out of 6143227
  119170 words of memory out of 5000000
@@ -516,3 +580,14 @@ Here is how much of TeX's memory you used:
  38i,12n,33p,1295b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on paper_e.dvi (10 pages, 70148 bytes).
+=======
+ 1979 strings out of 493648
+ 26105 string characters out of 6150704
+ 105380 words of memory out of 5000000
+ 5534 multiletter control sequences out of 15000+600000
+ 25272 words of font info for 98 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 32i,12n,33p,1297b,505s stack positions out of 5000i,500n,10000p,500000b,80000s
+
+Output written on paper_e.dvi (10 pages, 66604 bytes).
+>>>>>>> eaf3fef444a5512a21a21a8d94dffaee99305651
