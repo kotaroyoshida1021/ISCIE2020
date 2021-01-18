@@ -6,7 +6,7 @@ set yrange [-0.35:0.15]
 set key font "Arial,20"
 
 set size ratio -1
-plot "WireImage.txt" using 1:2 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 1:2 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:2 lc "black" title "Data points"
+plot "RidgeImage.txt" using 1:2 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:2 lc "black" title "Data points"
 #plot "RidgeImage.txt" using 1:2 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 1:2 lc "black" title "Data points"
 #set terminal epscairo crop
 #set terminal postscript eps
@@ -27,7 +27,7 @@ set key font "Arial,20"
 
 set size ratio -1
 
-plot "WireImage.txt" using 1:3 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 1:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:3 lc "black" title "Data points"
+plot "RidgeImage.txt" using 1:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 1:3 lc "black" title "Data points"
 #plot "RidgeImage.txt" using 1:3 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 1:3 lc "black" title "Data points"
 #set terminal postscript eps
 #set output "ObtainedRidgeLinefromz-y.eps"
@@ -45,7 +45,7 @@ set yrange [0.0:0.45]
 set key font "Arial,20"
 set size ratio -1
 #plot "RidgeImage.txt" using 2:3 with lines linewidth 1.0 lc "grey100" title "Computed cup shape","test2.txt" using 2:3 lc "black" title "Data points"
-plot "WireImage.txt" using 2:3 with lines linewidth 1.5 title "Wire lines", "RidgeImage.txt" using 2:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 2:3 lc "black" title "Data points"
+plot "RidgeImage.txt" using 2:3 with lines linewidth 1.0 lc "grey60" title "Computed cup shape","test2.txt" using 2:3 lc "black" title "Data points"
 #set terminal postscript eps
 #set output "ObtainedRidgeLinefromx-y.eps"
 set terminal pngcairo enhanced crop
